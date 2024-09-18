@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "meu-app",
-    "slug": "meu-app",
+    "name": "Manchou Limpou!",
+    "slug": "ManchouLimpou",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#E2E2B6"
     },
     "ios": {
       "supportsTablet": true
@@ -17,11 +17,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#021526"
+      },
+      "package": "com.fariasribas.ManchouLimpou"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fbca3f23-c0ed-4322-9fe2-5c6ff76a2aae"
+      }
     }
   }
 }
